@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #403534;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #4A3F3E;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 2px 3px 5px #3d2f2c;
+  position: relative;
+}
+.subcon {
+  background-color: #4A3F3E;
+  display: flex;
+  flex-direction: row;
+  
+}
+h2{
+ margin-top: 20px;
+margin-left: 40px;
+color: #ffffff;
+}
+
+.box {
+  margin: 20px;
+  padding: 10px;
+}
+.box4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom:5px ;
+  color: #ffffff;
+}
+.firstcol {
+  background-color: #433837;
+  height: 180px;
+  width: 70px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.red {
+  height: 50%;
+  width: 100%;
+  background-color: #D7634F;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.red2 {
+  height: 60%;
+  width: 100%;
+  background-color: #D7634F;
+ 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.red3 {
+  height: 15.5%;
+  width: 100%;
+  background-color: #D7634F;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.red4 {
+  height: 11%;
+  width: 100%;
+  background-color: #D7634F;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.red5 {
+  height: 5.5%;
+  width: 100%;
+  background-color: #D7634F;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.age {
+  font-size: 1.3erm;
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+.foot {
+  margin-bottom: 20px;
+}
+.total {
+  font-size: 0.88rem;
+  color: #a3a0a0;
+  text-align: center;
+}
